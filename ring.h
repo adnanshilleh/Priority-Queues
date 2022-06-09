@@ -87,10 +87,8 @@ rb_dequeue(struct ring *rb)
     void *value;
 
     if (rb == NULL){
-        printf("\nIm here\n");
 		return 0;
 	}else if (rb_isempty(rb) == 1){
-        printf("\nImhere\n");
 		return NULL;
 	}else{
 		// first capture the item
